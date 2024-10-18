@@ -8,7 +8,12 @@ import lombok.extern.slf4j.Slf4j;
 public class App {
     public static void main(String[] args) {
         Javalin app = getApp();
-        app.start("localhost", 8080);
+        app.start(getPort());
+    }
+
+    private static int getPort() {
+        String port = System.getenv().getOrDefault("PORT", "7070");
+        return Integer.parseInt(port);
     }
 
     public static Javalin getApp() {
