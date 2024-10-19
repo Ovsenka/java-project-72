@@ -8,6 +8,7 @@ import lombok.ToString;
 
 @Getter
 @ToString
+@Setter
 public final class Url {
     @Setter
     private long id;
@@ -21,4 +22,5 @@ public final class Url {
     public Url(String name) {
         this.name = name;
     }
+
 }
