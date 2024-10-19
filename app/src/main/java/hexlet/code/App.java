@@ -31,7 +31,7 @@ public class App {
     }
 
     private static int getPort() {
-        String port = System.getenv().getOrDefault("DB_PORT", "7070");
+        String port = System.getenv().getOrDefault("DB_PORT", "5432");
         return Integer.parseInt(port);
     }
 
