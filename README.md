@@ -5,4 +5,8 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/35fe8f5842302dea53ba/test_coverage)](https://codeclimate.com/github/Ovsenka/java-project-72/test_coverage)
 
 
+### Page analyzer
+
+Проверьте ваш сайт на SEO пригодность
+
 #### Deployed on [Render](https://java-project-72-8ka6.onrender.com)
